@@ -1,0 +1,58 @@
+
+body{
+    background-color: #EDF;
+}
+.left{
+    margin: 10%;
+    text-align: center;
+}
+.right{
+    
+    background: white;
+    border: grey 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10%;
+    margin-right: 25px;
+    
+    box-shadow: rgb(105, 103,103) 2px 5px 5px 5px;
+}
+.login{
+    width: 100%;
+    background-color: blue;
+}
+h1{
+    margin-top: 10%;
+    color: blue;
+    font-size: 60px;
+}
+
+h3{
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width:898px) {
+    
+    .left{
+        margin-left: 25px;
+        text-align: center;
+    }
+
+    .right{
+    
+        margin-right: 20;
+        margin-top: 10%;
+        border-radius: 10px;
+        padding: 30px;
+        
+    }
+    .login{
+        width: 100%;
+      text-align: center; 
+    }
+    a{
+        text-align: center;
+    }
+
+    
+}
